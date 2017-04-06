@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAA1949F1E942EF600BC9FC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA1949E1E942EF600BC9FC3 /* AppDelegate.swift */; };
+		FAA194A11E942EF600BC9FC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA194A01E942EF600BC9FC3 /* ViewController.swift */; };
+		FAA194A41E942EF600BC9FC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA194A21E942EF600BC9FC3 /* Main.storyboard */; };
+		FAA194A61E942EF600BC9FC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA194A51E942EF600BC9FC3 /* Assets.xcassets */; };
+		FAA194A91E942EF600BC9FC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA194A71E942EF600BC9FC3 /* LaunchScreen.storyboard */; };
+		FAA194B41E942EF600BC9FC3 /* CaesarCypherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA194B31E942EF600BC9FC3 /* CaesarCypherTests.swift */; };
+		FAA194BF1E942EF600BC9FC3 /* CaesarCypherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA194BE1E942EF600BC9FC3 /* CaesarCypherUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAA194B01E942EF600BC9FC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAA194931E942EF500BC9FC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAA1949A1E942EF500BC9FC3;
+			remoteInfo = CaesarCypher;
+		};
+		FAA194BB1E942EF600BC9FC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAA194931E942EF500BC9FC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAA1949A1E942EF500BC9FC3;
+			remoteInfo = CaesarCypher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAA1949B1E942EF600BC9FC3 /* CaesarCypher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaesarCypher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA1949E1E942EF600BC9FC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAA194A01E942EF600BC9FC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAA194A31E942EF600BC9FC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAA194A51E942EF600BC9FC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAA194A81E942EF600BC9FC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAA194AA1E942EF600BC9FC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA194AF1E942EF600BC9FC3 /* CaesarCypherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaesarCypherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA194B31E942EF600BC9FC3 /* CaesarCypherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaesarCypherTests.swift; sourceTree = "<group>"; };
+		FAA194B51E942EF600BC9FC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA194BA1E942EF600BC9FC3 /* CaesarCypherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaesarCypherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA194BE1E942EF600BC9FC3 /* CaesarCypherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaesarCypherUITests.swift; sourceTree = "<group>"; };
+		FAA194C01E942EF600BC9FC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAA194981E942EF500BC9FC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA194AC1E942EF600BC9FC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA194B71E942EF600BC9FC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAA194921E942EF500BC9FC3 = {
+			isa = PBXGroup;
+			children = (
+				FAA1949D1E942EF600BC9FC3 /* CaesarCypher */,
+				FAA194B21E942EF600BC9FC3 /* CaesarCypherTests */,
+				FAA194BD1E942EF600BC9FC3 /* CaesarCypherUITests */,
+				FAA1949C1E942EF600BC9FC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAA1949C1E942EF600BC9FC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAA1949B1E942EF600BC9FC3 /* CaesarCypher.app */,
+				FAA194AF1E942EF600BC9FC3 /* CaesarCypherTests.xctest */,
+				FAA194BA1E942EF600BC9FC3 /* CaesarCypherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAA1949D1E942EF600BC9FC3 /* CaesarCypher */ = {
+			isa = PBXGroup;
+			children = (
+				FAA1949E1E942EF600BC9FC3 /* AppDelegate.swift */,
+				FAA194A01E942EF600BC9FC3 /* ViewController.swift */,
+				FAA194A21E942EF600BC9FC3 /* Main.storyboard */,
+				FAA194A51E942EF600BC9FC3 /* Assets.xcassets */,
+				FAA194A71E942EF600BC9FC3 /* LaunchScreen.storyboard */,
+				FAA194AA1E942EF600BC9FC3 /* Info.plist */,
+			);
+			path = CaesarCypher;
+			sourceTree = "<group>";
+		};
+		FAA194B21E942EF600BC9FC3 /* CaesarCypherTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAA194B31E942EF600BC9FC3 /* CaesarCypherTests.swift */,
+				FAA194B51E942EF600BC9FC3 /* Info.plist */,
+			);
+			path = CaesarCypherTests;
+			sourceTree = "<group>";
+		};
+		FAA194BD1E942EF600BC9FC3 /* CaesarCypherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAA194BE1E942EF600BC9FC3 /* CaesarCypherUITests.swift */,
+				FAA194C01E942EF600BC9FC3 /* Info.plist */,
+			);
+			path = CaesarCypherUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAA1949A1E942EF500BC9FC3 /* CaesarCypher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA194C31E942EF600BC9FC3 /* Build configuration list for PBXNativeTarget "CaesarCypher" */;
+			buildPhases = (
+				FAA194971E942EF500BC9FC3 /* Sources */,
+				FAA194981E942EF500BC9FC3 /* Frameworks */,
+				FAA194991E942EF500BC9FC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CaesarCypher;
+			productName = CaesarCypher;
+			productReference = FAA1949B1E942EF600BC9FC3 /* CaesarCypher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAA194AE1E942EF600BC9FC3 /* CaesarCypherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA194C61E942EF600BC9FC3 /* Build configuration list for PBXNativeTarget "CaesarCypherTests" */;
+			buildPhases = (
+				FAA194AB1E942EF600BC9FC3 /* Sources */,
+				FAA194AC1E942EF600BC9FC3 /* Frameworks */,
+				FAA194AD1E942EF600BC9FC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAA194B11E942EF600BC9FC3 /* PBXTargetDependency */,
+			);
+			name = CaesarCypherTests;
+			productName = CaesarCypherTests;
+			productReference = FAA194AF1E942EF600BC9FC3 /* CaesarCypherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAA194B91E942EF600BC9FC3 /* CaesarCypherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA194C91E942EF600BC9FC3 /* Build configuration list for PBXNativeTarget "CaesarCypherUITests" */;
+			buildPhases = (
+				FAA194B61E942EF600BC9FC3 /* Sources */,
+				FAA194B71E942EF600BC9FC3 /* Frameworks */,
+				FAA194B81E942EF600BC9FC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAA194BC1E942EF600BC9FC3 /* PBXTargetDependency */,
+			);
+			name = CaesarCypherUITests;
+			productName = CaesarCypherUITests;
+			productReference = FAA194BA1E942EF600BC9FC3 /* CaesarCypherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAA194931E942EF500BC9FC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Kristian Trevino";
+				TargetAttributes = {
+					FAA1949A1E942EF500BC9FC3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					FAA194AE1E942EF600BC9FC3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FAA1949A1E942EF500BC9FC3;
+					};
+					FAA194B91E942EF600BC9FC3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FAA1949A1E942EF500BC9FC3;
+					};
+				};
+			};
+			buildConfigurationList = FAA194961E942EF500BC9FC3 /* Build configuration list for PBXProject "CaesarCypher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAA194921E942EF500BC9FC3;
+			productRefGroup = FAA1949C1E942EF600BC9FC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAA1949A1E942EF500BC9FC3 /* CaesarCypher */,
+				FAA194AE1E942EF600BC9FC3 /* CaesarCypherTests */,
+				FAA194B91E942EF600BC9FC3 /* CaesarCypherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAA194991E942EF500BC9FC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA194A91E942EF600BC9FC3 /* LaunchScreen.storyboard in Resources */,
+				FAA194A61E942EF600BC9FC3 /* Assets.xcassets in Resources */,
+				FAA194A41E942EF600BC9FC3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA194AD1E942EF600BC9FC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA194B81E942EF600BC9FC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAA194971E942EF500BC9FC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA194A11E942EF600BC9FC3 /* ViewController.swift in Sources */,
+				FAA1949F1E942EF600BC9FC3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA194AB1E942EF600BC9FC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA194B41E942EF600BC9FC3 /* CaesarCypherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA194B61E942EF600BC9FC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA194BF1E942EF600BC9FC3 /* CaesarCypherUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAA194B11E942EF600BC9FC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAA1949A1E942EF500BC9FC3 /* CaesarCypher */;
+			targetProxy = FAA194B01E942EF600BC9FC3 /* PBXContainerItemProxy */;
+		};
+		FAA194BC1E942EF600BC9FC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAA1949A1E942EF500BC9FC3 /* CaesarCypher */;
+			targetProxy = FAA194BB1E942EF600BC9FC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAA194A21E942EF600BC9FC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA194A31E942EF600BC9FC3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAA194A71E942EF600BC9FC3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA194A81E942EF600BC9FC3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAA194C11E942EF600BC9FC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAA194C21E942EF600BC9FC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAA194C41E942EF600BC9FC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CaesarCypher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = trevikri.CaesarCypher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FAA194C51E942EF600BC9FC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CaesarCypher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = trevikri.CaesarCypher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FAA194C71E942EF600BC9FC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CaesarCypherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = trevikri.CaesarCypherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CaesarCypher.app/CaesarCypher";
+			};
+			name = Debug;
+		};
+		FAA194C81E942EF600BC9FC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CaesarCypherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = trevikri.CaesarCypherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CaesarCypher.app/CaesarCypher";
+			};
+			name = Release;
+		};
+		FAA194CA1E942EF600BC9FC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CaesarCypherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = trevikri.CaesarCypherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CaesarCypher;
+			};
+			name = Debug;
+		};
+		FAA194CB1E942EF600BC9FC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CaesarCypherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = trevikri.CaesarCypherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CaesarCypher;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAA194961E942EF500BC9FC3 /* Build configuration list for PBXProject "CaesarCypher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA194C11E942EF600BC9FC3 /* Debug */,
+				FAA194C21E942EF600BC9FC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA194C31E942EF600BC9FC3 /* Build configuration list for PBXNativeTarget "CaesarCypher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA194C41E942EF600BC9FC3 /* Debug */,
+				FAA194C51E942EF600BC9FC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAA194C61E942EF600BC9FC3 /* Build configuration list for PBXNativeTarget "CaesarCypherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA194C71E942EF600BC9FC3 /* Debug */,
+				FAA194C81E942EF600BC9FC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAA194C91E942EF600BC9FC3 /* Build configuration list for PBXNativeTarget "CaesarCypherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA194CA1E942EF600BC9FC3 /* Debug */,
+				FAA194CB1E942EF600BC9FC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAA194931E942EF500BC9FC3 /* Project object */;
+}
